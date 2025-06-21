@@ -18,6 +18,15 @@ TMBspatial is a software tool for generating spatial genomic simulation data. It
 pip install numpy opencv-python matplotlib pandas
 ```
 
+
+### Data Dependency: hg19 Genome Sequence  
+This project uses hg19 (GRCh37 human genome) as the reference sequence. Download it via the following methods:  
+
+#### UCSC Genome Browser (Graphical)  
+1. Visit [https://genome.ucsc.edu/](https://genome.ucsc.edu/), select **Human (hg19)**.  
+2. Go to **Tools → Downloads → Sequence → hg19** and download the full genome or specific chromosomes.  
+
+
 ## Usage
 
 ### Basic Usage
